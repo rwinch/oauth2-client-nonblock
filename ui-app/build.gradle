@@ -28,15 +28,7 @@ repositories {
 }
 
 dependencies {
-    compile "org.springframework.boot:spring-boot-starter-web",
-            "org.springframework.boot:spring-boot-starter-thymeleaf",
-            "org.springframework.boot:spring-boot-starter-security",
-            "org.springframework.boot:spring-boot-starter-oauth2-client",
-            "org.springframework:spring-webflux",
-            "io.projectreactor.netty:reactor-netty",
-            "org.webjars:webjars-locator-core",
-            "org.webjars:bootstrap:3.3.7-1",
-            "org.webjars:jquery:3.1.1",
+    compile "org.springframework.boot:spring-boot-starter-webflux",
             "io.projectreactor.tools:blockhound:1.0.0.M4"
     
     testCompile "org.springframework:spring-test",
